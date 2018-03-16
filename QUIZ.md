@@ -27,6 +27,11 @@ Your app should offer the following routes:
 All data can be local and temporary. This means you do **not** need to deal with asychronicity. 
 You can hard-code initial seed data in `createStore` or in the `pets` reducer if you wish.
 
+Your pet should have at lest:
+* `name`
+* `animal`
+* `description`
+
 You should assign your pet objects and `id` that is used to uniquely identifiy each pet.
 
 ## Testing
